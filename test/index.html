@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>公共气象服务一体化业务平台</title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div class="header">
+				<div class="logo"></div>
+				<div class="nav">
+					<ul>
+						<li><a href="javascript:void(0);">专业预报</a></li>
+						<li><a href="javascript:void(0);">产品制作</a></li>
+						<li><a href="javascript:void(0);">综合检测</a></li>
+						<li><a href="javascript:void(0);">智能报警</a></li>
+						<li><a href="javascript:void(0);">一键发布</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="center">
+				<div class="tab">
+					<ul>
+						<li><a href="javascript:void(0);">综合报警</a></li>
+						<li><a href="javascript:void(0);">报警设置</a></li>
+						<li><a href="javascript:void(0);">策略设置</a></li>
+						<li><a href="javascript:void(0);">留痕管理</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<div class="title">
+					<h3><img src="img/leftBorder.png"/><span>留痕管理</span></h3>
+				</div>
+				<div class="tabNav">
+					<div class="tab1">
+						<ul>
+							<li>短信统计</li>
+							<li>发布历史</li>
+						</ul>
+					</div>
+					<div class="dxtj">
+						<div class="gongN">
+							<div class="search">
+								<span>起止时间：</span>
+								<select class="sel1">
+									<option value="01">2018年07月05日16时</option>
+									<option value="01">2018年07月05日17时</option>
+									<option value="01">2018年07月05日18时</option>
+								</select>
+								<span>至</span>
+								<select class="sel2">
+									<option value="01">2018年07月05日16时</option>
+									<option value="01">2018年07月05日17时</option>
+									<option value="01">2018年07月05日18时</option>
+								</select>
+							</div>
+							<div class="btn">
+								<ul>
+									<li>上月</li>
+									<li>本月</li>
+									<li>自定义</li>
+								</ul>
+							</div>
+							<button class="sch">查询</button>
+						</div>
+						<table id="tableCont" class="table table-bordered table-striped">
+							<!--<caption>边框表格布局</caption>-->
+							<thead>
+								<tr class="titleName">
+									<th class="small">统计时间</th>
+									<th>发送总量（条）</th>
+									<th>发送成功量（条）</th>
+									<th>发送失败量（条）</th>
+									<th>发送失败率</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>2018-07-01</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+								<tr>
+									<td>小计</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>4153</td>
+									<td>41.53%</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="fbls">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+//		$('.dxtj').click().css('display','block');
+		var oTab = document.getElementsByClassName('tab1')[0];
+		var oLi = oTab.getElementsByTagName('li');
+		var oDxtj = document.getElementsByClassName('dxtj')[0];
+		var oFbls = document.getElementsByClassName('fbls')[0];
+		oLi[0].onclick = function (){
+			oFbls.style.display = 'none';
+			oDxtj.style.display = 'block';
+		}
+		oLi[1].onclick = function (){
+			oDxtj.style.display = 'none';
+			oFbls.style.display = 'block';
+		}
+	</script>
+</html>

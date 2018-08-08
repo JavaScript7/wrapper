@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div class="head">
+				<div class="h-left"></div>
+				<div class="h-right">
+					<ul>
+						<li class="active"><a href="javasript:void(0)">综合观测</a></li>
+						<li><a href="javasript:void(0)">卫星遥感</a></li>
+						<li><a href="javasript:void(0)">数值预报</a></li>
+						<li><a href="javasript:void(0)">专题服务</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<div class="c-left">
+					<div class="showTime"></div>
+					<div class="map">
+						<div class="fubiao">
+							<p><img src="img/dingwei.png" alt=""/><a>牛山岛标</a></p>
+							<div class="timeDate">时间<span>:</span>06月21日11时00分</div>
+							<div class="dscrip">
+								<ul>
+									<li>平均波高<span>:</span>0.7m</li>
+									<li class="span-act">浪级<span>:</span>轻浪</li>
+									<li>最大波高<span>:</span>1.3m</li>
+									<li>有效波高<span>:</span>1.0m</li>
+									<li>平均风速<span>:</span>100.0m/s</li>
+									<li>最大风速<span>:</span>-</li>
+									<li class="span-act">风力<span>:</span>17.0级</li>
+									<li class="span3">风向值<span>:</span>999.0°</li>
+									<li>平均风向<span>:</span>-</li>
+									<li class="span-act">气温<span>:</span>26.7°C</li>
+									<li class="span-act">气压<span>:</span>1007.3hpa</li>
+									<li class="span-act">水温<span>:</span>-</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="c-right">
+					<div class="title">
+						<ul>
+							<li>地理信息</li>
+							<div class="checkbox">
+								<ul>
+									<li><span class="btn-bg"></span>市界</li>
+									<li><span class="btn-bgc"></span>市名</li>
+									<li><span class="btn-bgc"></span>县界</li>
+									<li><span class="btn-bgc"></span>县名</li>
+									<li><span class="btn-bgc"></span>镇界</li>
+									<li><span class="btn-bgc"></span>镇名</li>
+									<li><span class="btn-bg"></span>地图</li>
+								</ul>
+							</div>
+							<li>自动站</li>
+							<div class="checkbox">
+								<ul>
+									<li><span class="btn-bg"></span>国家站</li>
+									<li><span class="btn-bgc"></span>区域站</li>
+									<li><span class="btn-bg"></span>浮标站</li>
+									<li><span class="btn-bgc"></span>色斑图</li>
+									<li><span class="btn-bgc"></span>等值线</li>
+									<li><span class="btn-bg"></span>分级</li>
+									<li><span class="btn-bg"></span>固定色斑图</li>
+								</ul>
+							</div>
+							<li>快速查询<span class="s-title"><a href="javascript:void(0)">质控列表</a></span></li>
+							<div class="zklb">
+								<div class="time-select">
+									<span>时间:</span>
+									<!--<input class="inp-border" type="datetime-local" name="" id="" value="" />-->
+									<img src="img/time-date.jpg" alt=""/>
+								</div>
+								<div class="btn-px">
+									<button class="btn-pre">上一时次</button>
+									<button class="btn-next">下一时次</button>
+									<button class="zx">最新</button>
+								</div>
+								<h3><a href="javascript:void(0)">自动站要素</a></h3>
+								<div class="precipitation">
+									<span id="toyi" class="desc">降水</span>
+									<ul>
+										<li class="liActive">R<sub>近1</sub></li>
+										<li>R<sub>近3</sub></li>
+										<li>R<sub>近6</sub></li>
+										<li>R<sub>近12</sub></li>
+										<li>R1</li>
+										<li>R3</li>
+										<li>R6</li>
+										<li>R12</li>
+										<li>R24</li>
+										<li style="position: relative; line-height: 15px;">
+											R<sub style="position: absolute; top: 14px; left: 20px;">08</sub>
+											<sup>08</sup>
+										</li>
+										<li style="position: relative; line-height: 15px;">
+											R<sub style="position: absolute; top: 14px; left: 20px;">20</sub>
+											<sup>20</sup>
+										</li>
+										<li>R<sub>m10</sub></li>
+									</ul>
+								</div>
+								<div class="wind">
+									<span id="toyi" class="desc">风</span>
+									<ul>
+										<li>F</li>
+										<li>F<sub>m</sub></li>
+										<li>F<sub>x</sub></li>
+										<li>F<sub>m24</sub></li>
+										<li>F<sub>x24</sub></li>
+									</ul>
+								</div>
+								<div class="temperature">
+									<span id="toyi" class="desc">温度</span>
+									<ul>
+										<li>T</li>
+										<li>Th<sub>24</sub></li>
+										<li style="position: relative; line-height: 15px;">
+											Th<sub style="position: absolute; top: 14px; left: 23px;">02</sub>
+											<sup>02</sup>
+										</li>
+										<li>TL<sub>24</sub></li>
+										<li style="position: relative; line-height: 15px;">
+											TL<sub style="position: absolute; top: 14px; left: 23px;">14</sub>
+											<sup>14</sup>
+										</li>
+										<li>T<sub>变24</sub></li>
+									</ul>
+								</div>
+								<div class="visibility">
+									<span id="toyi" class="desc">能见度</span>
+									<ul>
+										<li>V</li>
+										<li>V<sub>min1</sub></li>
+										<li>V<sub>min24</sub></li>
+									</ul>
+								</div>
+								<div class="pressure">
+									<span id="toyi" class="desc">气压</span>
+									<ul>
+										<li>P</li>
+										<li>P<sub>变3</sub></li>
+										<li>P<sub>变24</sub></li>
+									</ul>
+								</div>
+								<div class="humidity">
+									<span id="toyi" class="desc">湿度</span>
+									<ul>
+										<li>Rh</li>
+									</ul>
+								</div>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<p>版权所有<span>:</span>莆田市气象局</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+//			头部选项卡
+			var $li = $('.h-right ul li');
+			$li.click(function(){
+				$li.removeClass('active');
+				$(this).addClass('active');
+			});
+//			选择打钩部分
+			$('.checkbox>ul>li>span').click(function(){
+				if($(this).attr('class') == 'btn-bg'){
+					$(this).removeClass('btn-bg');
+					$(this).addClass('btn-bgc');
+				}else if($(this).attr('class') == 'btn-bgc'){
+					$(this).removeClass('btn-bgc');
+					$(this).addClass('btn-bg');
+				}
+			})
+//			自动站要素li部分点击
+			var $zli = $('.precipitation ul>li');
+			$zli.click(function(){
+				$zli.removeClass('liActive');
+				$(this).addClass('liActive');
+			})
+			var w = $('.wind ul>li');
+			w.click(function(){
+				w.removeClass('liActive');
+				$(this).addClass('liActive');
+			})
+			var t = $('.temperature ul>li');
+			t.click(function(){
+				t.removeClass('liActive');
+				$(this).addClass('liActive');
+			})
+			var v = $('.visibility ul>li');
+			v.click(function(){
+				v.removeClass('liActive');
+				$(this).addClass('liActive');
+			})
+			var pr = $('.pressure ul>li');
+			pr.click(function(){
+				pr.removeClass('liActive');
+				$(this).addClass('liActive');
+			})
+			var hu = $('.humidity ul>li');
+			hu.click(function(){
+				hu.removeClass('liActive');
+				$(this).addClass('liActive');
+			})
+		})
+	</script>
+</html>

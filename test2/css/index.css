@@ -1,0 +1,374 @@
+*{ margin: 0; padding: 0;}
+ul,li{ list-style: none;}
+a{ 
+	text-decoration: none;
+}
+body{
+	font-family: "微软雅黑 Regular";
+	font-size: 16px;
+	color: #000;
+}
+#main{
+	min-width: 1080px;
+	/*width: 100vw;*/
+	width: 1920px;
+	overflow: hidden;
+}
+/*头部*/
+#main .head{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-shadow: 0 2px 15px #B2B2B2;
+	background: #072B76;
+}
+.head .h-left{
+	width: 1070px;
+	height: 60px;
+	background: url(../img/head-logo.jpg) no-repeat;
+}
+.head .h-right{
+	background: #072B76;
+}
+.head .h-right ul{
+	display: flex;
+	align-items: center;
+}
+.h-right ul li{
+	width: 94px;
+	height: 60px;
+	margin-left: 38px;
+	line-height: 60px;
+	text-align: center;
+}
+.h-right ul li a{
+	font-size: 18px;
+}
+.h-right .active{
+	background: #334DA3;
+	border-bottom: 5px solid #F8EC00;
+	box-sizing: border-box;
+}
+.h-right ul li a{
+	font-size: 13.5px;
+	color: #fff;
+}
+.h-right .active a{
+	color: #f8ec00;
+}
+/*内容*/
+#main .content:before{
+	clear: both;
+}
+#main .content{
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	background: green;
+	margin-top: -6px;
+}
+.content .c-left{
+	position: relative;
+}
+.content .map .fubiao{
+	position: absolute;
+	top: 170px;
+	right: 500px;
+	width: 307px;
+	height: 254px;
+	background: url(../img/fubiao.png) no-repeat;
+	padding: 0 20px;
+	border-radius: 6px;
+}
+.fubiao p{
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	width: 260px;
+	height: 38px;
+	border-bottom: 1px dotted #8A8A8A;
+	line-height: 38px;
+	font-size: 16px;
+	color: #19679C;
+	text-indent: 8px;
+}
+.fubiao .timeDate{
+	width: 100%;
+	height: 26px;
+	font-size: 12.5px;
+	line-height: 26px;
+	color: #535353;
+}
+.fubiao .dscrip ul li{
+	float: left;
+	width: 144px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12.5px;
+	color: #535353;
+}
+.fubiao span{
+	margin: auto 6px;
+}
+.span3{
+	text-indent: 12px;
+}
+.span-act{
+	text-indent: 24px;
+}
+/*地图*/
+.content .c-left{
+	width: 100%;
+}
+/*显示时间*/
+.c-left .showTime{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/*右边控件*/
+.content .c-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 265px;
+	height: 1000px;
+	background: #F3F3F3;
+	color: #747474;
+}
+/*地理信息,自动站,快速查询*/
+.c-right .title>ul>li{
+	width: 100%;
+	height: 30px;
+	background: #E7E7E7;
+	border-left: 10px solid #CECECE;
+	box-sizing: border-box;
+	line-height: 30px;
+	text-indent: 25px;
+	color: #848484;
+	font-size: 14px;
+}
+.title .checkbox{
+	display: block;
+	width: 100%;
+	height: 120px;
+}
+.title .checkbox>ul>li{
+	float: left;
+	display: flex;
+	align-items: center;
+	width: 68px;
+	height: 24px;
+	margin-left: 8px;
+	margin-top: 10px;
+	line-height: 24px;
+	font-size: 10.5px;
+}
+.title .checkbox>ul>li:last-child{
+	width: 100px;
+}
+/*点击选择打钩*/
+.checkbox .btn-bg{
+	display: inline-block;
+	float: left;
+	width: 16px;
+	height: 18px;
+	margin-right: 4px;
+	background: url(../img/btn-right.png) no-repeat;
+	cursor: pointer;
+}
+.checkbox .btn-bgc{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	background: #D8DDDF;
+	border-radius: 6px;
+	cursor: pointer;
+}
+/*质控列表*/
+.title .s-title{
+	float: right;
+	width: 100px;
+	height: 40px;
+	margin-right: 2px;
+	text-align: center;
+}
+.s-title a{
+	font-size: 14px;
+	color: #2B2BFA;
+	text-decoration: underline;
+}
+.title .zklb{
+	width: 100%;
+}
+/*日期控件*/
+.zklb .time-select{
+	width: 100%;
+	height: 38px;
+	margin-top: 10px;
+	line-height: 38px;
+	text-indent: 10px;
+}
+.zklb .time-select span{
+	float: left;
+}
+/*.time-select .inp-border{
+	width: 172px;
+	height: 25px;
+	border: 1px solid #B1CAE8;
+}*/
+.time-select img{
+	margin-top: 6px;
+}
+.zklb ul li{
+	float: left;
+	width: 42px;
+	height: 30px;
+	margin-left: 4px;
+	margin-top: 10px;
+	border: 1px solid #C6C7C9;
+	text-align: center;
+	line-height: 30px;
+	font-size: 10.5px;
+	color: #333;
+	cursor: pointer;
+}
+.zklb .liActive{
+	background: #38A7F0;
+	border: 1px solid #38A7F0;
+	/*box-sizing: border-box;*/
+	color: #fff;
+}
+/*上下一时次*/
+.zklb .btn-px{
+	width: 100%;
+	height: 42px;
+	margin-left: 26px;
+	line-height: 42px;
+}
+.zklb .btn-px button{
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.zklb .btn-px .btn-next,.btn-pre{
+	width: 76px;
+	height: 24px;
+	text-align: center;
+	line-height: 15px;
+	background: #2385E9;
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+/*最新*/
+.btn-px .zx{
+	width: 50px;
+	height: 26px;
+	text-align: center;
+	line-height: 15px;
+	background: #FFE403;
+	font-size: 12px;
+	color: #000;
+}
+/*质控列表下面内容*/
+.zklb h3{
+	height: 15px;
+	margin-left: 10px;
+	border-left: 5px solid #2385E9;
+	text-indent: 10px;
+	line-height: 10px;
+}
+.zklb h3 a{
+	font-size: 10.5px;
+	color: #414141;
+	font-family: "Bold";
+}
+.zklb .desc{
+	color: #333;
+}
+/*统一降水,风,温度,能见度,气压样式*/
+#toyi{
+	float: left;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 60px;
+	font-size: 14px;
+}
+/*降水*/
+.zklb .precipitation{
+	display: block;
+	position: relative;
+	height: 134px;
+	margin-top: 2px;
+}
+.precipitation ul{
+	display: block;
+	margin-left: 54px;
+}
+/*风*/
+.zklb .wind{
+	position: relative;
+	height: 90px;
+}
+.wind ul{
+	display: block;
+	margin-left: 54px;
+}
+/*温度*/
+.zklb .temperature{
+	display: block;
+	position: relative;
+	height: 90px;
+}
+.temperature ul{
+	display: block;
+	margin-left: 54px;
+}
+/*能见度*/
+.zklb .visibility{
+	display: block;
+	position: relative;
+	height: 45px;
+}
+.visibility ul{
+	display: block;
+	margin-left: 54px;
+}
+/*气压*/
+.zklb .pressure{
+	display: block;
+	position: relative;
+	height: 45px;
+}
+.pressure ul{
+	display: block;
+	margin-left: 54px;
+}
+/*湿度*/
+.zklb .humidity{
+	display: block;
+	position: relative;
+	height: 90px;
+}
+.humidity ul{
+	display: block;
+	margin-left: 54px;
+}
+/*尾部*/
+#main .foot{
+	height: 40px;
+	background: #213789;
+	line-height: 40px;
+	text-align: center;
+	font-size: 10.5px;
+	/*font-weight: bold;*/
+	font-family: 'Regular';
+	color: #fff;
+}
+.foot span{
+	margin: auto 5px;
+}
