@@ -1,0 +1,48 @@
+*{ padding: 0px;margin: 0px; font-size: 12px;}
+a{text-decoration: none;}
+ul,li{ list-style: none;}
+input{ border: none;}
+									/*头部*/
+#wrap{ max-width: 1920px; min-width: 1200px; height: 702px; overflow: hidden;}
+#wrap .top{background: #FFFFFF;width: 1200px;height: 100px;margin: 0 auto;}
+.top img{margin: 22px 20px 20px 0px;float: left;}
+.login-error{width:880px;text-align:center;margin:35px auto;border:1px solid #ffb4a8 ;background: #fef2f2;padding: 5px;float: left;}
+									/*注册部*/
+#wrap .contain_box_main{margin-top: 2px; height: 600px; background: url(../img/enterimg.jpg) no-repeat; z-index: 999;}
+.contain_box_main .login_box{float: left; width: 380px; height: 436px; border-radius: 5px; margin: 117px 50px; box-shadow: 0px 0px 5px 2px #C1BFC0; background: #fff;}
+.login_top{float: left; width: 300px;height: 41px; line-height: 41px; margin:25px 40px; border-bottom: 1px solid #BFBFBF;}
+.login_top li:nth-child(1){float: left; font-size: 26px; color:#FE3058;}
+.login_top li:nth-child(2){float: left; margin-left: 69px;font-size: 14px; }
+.login_top li:nth-child(3){float: right; color:#0480FF;}
+.login_top li:nth-child(3) a{font-size: 14px;color: #E95521;}
+
+.login_box .user_password_box{ clear: both; width: 300px;height: 42px; margin-left: 40px;border: 1px solid #BFBFBF; box-sizing: border-box;}
+.user_password_box input{width: 250px; height: 39px; border: none; margin-top: 1px; margin-left: 10px; outline: none;}
+.user_password_box:nth-child(2){margin-bottom: 18px; background-position: 260px 10px;}
+.user_password_box:nth-child(3){margin-bottom: 10px;border: none;}
+.user_password_box:nth-child(4),.user_password_box:nth-child(5){margin-bottom: 10px; background-position: 260px 10px;}
+
+.veri_code_box{float: left;border: 1px solid #BFBFBF;height: 42px; box-sizing: border-box;}
+.user_password_box .input_veri_code{width: 165px; border: none; margin-top: 0px;}
+.user_password_box .veri_btn{ float: right; width: 115px; border: 1px solid #BFBFBF; color: #9C9C9C; font-size: 15px; 
+ font-weight: bold; height: 100%; margin: 0px; background: linear-gradient(#F4F4F4,#C9C9C9);}
+
+.input_text{ box-sizing: border-box;}
+.input_pasd{ box-sizing: border-box;}
+.login_box>li{ margin-left: 40px;}
+.login_box>li a{ font-size: 14px;color: #E95521;}
+.input_btn{width: 300px; height: 42px; margin-left: 40px; background-color: #FE3058;margin-top: 10px;font-size: 18px; border: none;border-radius: 4px; color: #FFFFFF; cursor: pointer;}
+
+.contain_box_main .pic{float: right; margin:90px 180px ;width: 425px;height: 465px;}
+									/*尾部*/
+.c_foot{ max-width: 1920px; min-width: 1200px; height: 130px; background: white;}
+.c_foot .co_foot{ width: 750px; height: 130px; margin-left: 110px;}
+.co_foot .f_one li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_one li a{ font-size: 12px; color: black;}
+.co_foot .f_two li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_two li a{ font-size: 12px; }
+.co_foot .f_three li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_three li a{ font-size: 12px; color: #999;}
+.co_foot .f_fure li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_fure li a{ font-size: 12px; }
+

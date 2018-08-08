@@ -1,0 +1,47 @@
+*{padding: 0px;margin: 0px;font-size: 12px;}
+a{text-decoration: none;}
+ul,li{ list-style: none;}
+.top{background: #FFFFFF;width: 1200px;height: 100px;margin: 0 auto;}
+.top img{margin: 22px 20px 20px 0px;float: left;}
+.login-error{width:880px;text-align:center;margin:35px auto;border:1px solid #ffb4a8 ;background: #fef2f2;padding: 5px;float: left;}
+
+.content{ max-width: 1920px; min-width: 1200px; height:600px;background: url(../img/enterimg.jpg) no-repeat;background-position: bottom;}
+.main{width: 1200px;}
+.content .main .box{    width: 300px;padding: 25px 25px 23px;color: #6c6c6c;
+    background-color: rgba(255,255,255,.9); float: right;margin: 86px auto;}
+.box h2{margin-bottom: 26px;font-size: 16px;color:#000000}
+.box label{position: relative;}
+.box label input{width: 250px;height: 39px;border: 1px solid #ddd;padding-left: 50px;}
+.box label img{position: absolute;}
+.box .enter{margin-bottom: 14px;}
+.box .password{margin-bottom: 14px;}
+.box .password img{top:-14px}
+.box #button{margin-bottom: 14px;width: 300px;height: 42px;border: none;line-height: 42px;font-weight: 700;font-size: 16px;border-radius: 3px;background: #FE3058;color: #fff;cursor: pointer;}
+
+.box .bl{margin-bottom: 25px;position: relative;}
+.box .bl a{margin-right: 20px;margin-left: 24px;}
+.box .bl img{position: absolute;top:-2px}
+.box .br{float: right;}
+.box .br a{margin-left: 10px;}
+
+.c_foot{ max-width: 1920px; min-width: 1200px; height: 130px; background: white;}
+.c_foot .co_foot{ width: 750px; height: 130px; margin-left: 110px;margin-top: 40px;}
+.co_foot .f_one li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_one li a{ font-size: 12px;}
+.co_foot .f_two li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_two li a{ font-size: 12px; }
+.co_foot .f_three li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_three li a{ font-size: 12px; color: #999;}
+.co_foot .f_fure li{ float: left; margin-left: 46px; margin-top: 13px;}
+.co_foot .f_fure li a{ font-size: 12px; }
+
+
+
+
+
+
+
+
+
+
+

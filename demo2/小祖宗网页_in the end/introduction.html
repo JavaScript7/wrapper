@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" href="css/introduction.css" />
+		<link href="img/logo1.png" rel="shortcut icon" type="image/x-icon" />
+		<script type="text/javascript" src="js/fdj.js" ></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+		<script type="text/javascript" src="js/areaData.js" ></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="one_line"></div>
+			<div class="header">
+				<div class="main">
+					<div class="header_nav">					
+						<div class="header_top">
+							<div class="top_l">
+								<span>小祖宗，欢迎回来~</span>
+								<a href="enter.html">请登录</a>
+								<a href="registered.html">免费注册</a>
+							</div>
+							<ul class="top_r">
+								<li><img class="ioc_logo" src="img/yellowg.png"/><a class="ioc" href="#">我的小祖宗<img class="xuan" src="img/xiala.png" /></a>				
+									<ul class="submenu">
+										<li><a href="javascript:viod(0)">我的消息</a></li>
+										<li><a href="javascript:viod(0)">我的关注</a></li>
+										<li><a href="javascript:viod(0)">额度</a></li>
+										<li><a href="shoppingpu.html">我的购物车</a></li>
+									</ul>						
+								</li>
+								<li><img class="gowu" src="img/shopping.jpg"/><a href="shoppingpu.html">购物车</a></li>
+								<li><img class="star" src="img/star.png"><a href="javascript:viod(0)">收藏夹<img class="xiala" src="img/xiala.png" /></a></li>
+								<li><a href="javascript:viod(0)">联系客服</a></li>
+								<li><img src="img/1.png"/><a href="javascript:viod(0)">网站导航</a></li>
+							</ul>
+						</div>
+						<!------------------头部logo，搜索栏，我的购物车 -------------------------->
+						<div class="header_center">
+							<div class="logo">
+								<a href="index.html"><img src="img/logo.jpg"</img></a>
+							</div>
+							<div class="search">
+								<div class="search_box">
+									<div class="search_icon"></div>
+									<input type="text" placeholder="请输入你要搜索的内容" />
+									<input type="button" value="搜索" />
+								</div>
+								<ul class="search_recommend">
+									<a href="javascript:viod(0)"><li>办公桌</li></a>
+									<a href="javascript:viod(0)"><li>笔记本</li></a>
+									<a href="javascript:viod(0)"><li>代购</li></a>
+									<a href="javascript:viod(0)"><li>代销</li></a>
+									<a href="javascript:viod(0)"><li>办公桌</li></a>
+									<a href="javascript:viod(0)"><li>笔记本</li></a>
+									<a href="javascript:viod(0)"><li>代购</li></a>
+									<a href="javascript:viod(0)"><li>代销</li></a>
+								</ul>
+							</div>
+							
+							<div class="buycar">
+									<img src="img/buycar.png">
+									<a href="shoppingpu.html">
+										<span>我的购物车<span class="numb">(0)</span>></span>
+									</a>
+							</div>
+						</div>
+					</div>
+				<!------------------商品详情 -------------------------->	
+					<div class="navTitle">
+							<div class="activeAll"><span>全部分类</span></li>
+							<div class="otherAll">
+								<ul>
+									<li><a href="index.html"><span>首页</span></a></li><span>|</span>
+									<li><a href="javascript:void(0)">团购</a></li><span>|</span>
+									<li><a href="javascript:void(0)">限时购</a></li><span>|</span>
+									<li><a href="javascript:void(0)">大甩卖</a></li>
+								</ul>
+							</div>	
+					</div>
+					
+				    <div class="title_box">
+				    	<h3>
+				    		<a href="index.html">首页</a>>
+				    		<a href="javascript:void(0)"><span class="sorta">分类</span></a>>
+				    		<a href="javascript:void(0)"><span class="sortb">商品详情</span></a>
+				    	</h3>
+				    </div>
+				    <div class="clear_box" style="height: 40px;"></div>
+				  <!------------------商品详情 -------------------------->	  
+					<div id="x_box">
+						<div id="demo">
+						    <div id="small-box">
+						        <div id="mark"></div>
+						        <div id="float-box"></div>
+						        <img src="img/macbook-small.jpg">
+						    </div>
+						    <div id="big-box">
+						        <img src="img/macbook-big.jpg">
+						    </div>
+						    <div class="img_small">
+								<img src="img/macbook-small.jpg" width="60px" height="60px" alt="不支持" />
+								<img src="img/macbook-small.jpg" width="60px" height="60px" alt="不支持" />
+								<img src="img/macbook-small.jpg" width="60px" height="60px" alt="不支持" />
+							</div>
+						</div>
+						<div class="descript">
+							<h3>超薄 超便宜 还有不同的功能 超笔记本电脑</h3>
+							<div class="ljuan">
+								<div class="lj_l">
+									<ul class="box_l">
+										<li><span>店铺优惠</span></li>
+										<li><span>促销价</span></li>
+										<li><span>原价</span></li>
+									</ul>
+									<ul class="box_r">
+										<li><p>购物满2台打8折，满3台7折</p></li>
+										<li><b>¥4690.00</b></li>
+										<li><strike>¥5800.00</strike></li>
+									</ul>
+								</div>
+								<div class="lj_r">
+									<b>点击领劵</b>
+								</div>
+							</div>
+							<div class="address">
+								<p>配送至</p>
+								<select name="" id="sheng">								
+									<option value="">省</option>
+								</select>
+								<select name="" id="shi">
+									<option value="">市</option>
+								</select>
+								<select name="" id="xian">
+									<option value="">县</option>
+								</select>
+							</div>
+							<div class="xiaol">
+								<span>月销量<b>1545</b></span><span class="fengea">|</span>
+								<span>累计销量<b>9862</b></span><span class="fengea">|</span>
+								<span>累计评价<b>5646</b></span>
+							</div>
+							<div class="sel_box">
+								<div class="context_box">
+									<ul>
+										<li class="active">套餐</li>
+										<li>套餐一</li>
+										<li>套餐二</li>
+										<li>套餐三</li>
+									</ul>
+								</div>
+								<div class="addShop">
+									<span>数量</span>
+									<div class="box_btn">
+										<input type="button" id="btn_jian" value="-" />
+										<input type="text" name="" id="btn_textl" value="1" />
+										<input type="button" id="btn_add" value="+" />
+									</div>
+									<span class="kc">库存2000件</span>
+								</div>
+							</div>
+							<div class="btn_box">
+								<input type="button" name="" id="btn_ljgm" value="立即购买" />
+								<input type="button" name="" id="jrgwc" value="加入购物车" />
+							</div>
+						</div>
+					</div>
+					<div class="center_box">
+						<div class="l_box">
+							<h4>看了又看</h4>
+							<ul>
+								<li>
+									<img src="img/computer1.jpg" width="200px" height="200px" alt="不支持">
+									<div class="descr">
+										<span>超便宜电脑</span><br/>
+										<span>不买就吃亏啦！</span>
+									</div>
+									<p>￥64元</p>
+								</li>
+								<li>
+									<img src="img/computer1.jpg" width="200px" height="200px" alt="不支持">
+									<div class="descr">
+										<span>超便宜电脑</span><br/>
+										<span>不买就吃亏啦！</span>
+									</div>
+									<p>￥64元</p>
+								</li>
+								<li>
+									<img src="img/computer1.jpg" width="200px" height="200px" alt="不支持">
+									<div class="descr">
+										<span>超便宜电脑</span><br/>
+										<span>不买就吃亏啦！</span>
+									</div>
+									<p>￥64元</p>
+								</li>
+							</ul>
+						</div>
+						<div class="r_box">
+							<div class="title">
+								<ul>
+									<li style="color: red; border-top: 2px solid red; margin-top: -2px;">
+										<h3 style="color: red;">宝贝详情</h3>
+									</li>
+									<li><h3>全部评价</h3></li>
+									<li><h3>猜你喜欢</h3></li>
+								</ul>					
+							</div>
+							<div class="cpcs">
+								<div class="title">
+									<span>产品参数:</span>
+								</div>
+								<div class="context">
+									<div class="box_l">
+										<ul>
+											<li>产品类型：烘烤类</li>
+											<li>配料表：进口松子</li>
+											<li>产品标准号：12644</li>
+											<li>食用方法：开袋即食</li>
+										</ul>
+									</div>
+									<div class="box_c">
+										<ul>
+											<li>原料产地：中国</li>
+											<li>产品规格：230g</li>
+											<li>生产许可证编号：845 451 446</li>
+										</ul>
+									</div>
+									<div class="box_ri">
+										<ul>
+											<li>产地：龙岩</li>
+											<li>保质期：1年</li>
+											<li>储存方法：干燥·通风</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="glein">
+								
+							</div>	
+							<!--------------商品详情-------------------------->
+							<div class="shop_descript">
+								<h3>商品介绍:</h3>
+								<div class="img_box">
+									<ul>
+										<li><img src="img/computerDes1.jpg"></li>
+										<li><img src="img/computerDescr.jpg"></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				</div>
+				<div style="clear: both;"></div>
+			<!-----------------尾部-------------------------->
+			<div id="foot">
+				<div class="foot_main">
+					<div class="foot_top">
+						<p>小祖宗，我可是有底线的人...</p>
+					</div>
+					<div class="foot_content">
+						<ul>
+							
+							<h5>购物指南</h5>
+							<li><a href="javascript:viod(0)">购物流程</a></li>
+							<li><a href="javascript:viod(0)">购物流程</a></li>
+							<li><a href="javascript:viod(0)">生活旅行</a></li>
+							<li><a href="javascript:viod(0)">常见问题</a></li>
+							<li><a href="javascript:viod(0)">大家电</a></li>
+							<li><a href="javascript:viod(0)">联系客服</a></li>
+						</ul>
+						<ul>
+							<h5>配送方式</h5>
+							<li><a href="javascript:viod(0)">上门自提</a></li>
+							<li><a href="javascript:viod(0)">211限时达</a></li>
+							<li><a href="javascript:viod(0)">配送服务查询</a></li>
+							<li><a href="javascript:viod(0)">配送费收取标准</a></li>
+							<li><a href="javascript:viod(0)">海外配送</a></li>
+						</ul>
+						<ul>
+							<h5>支付方式</h5>
+							<li><a href="javascript:viod(0)">货到付款</a></li>
+							<li><a href="javascript:viod(0)">在线支付</a></li>
+							<li><a href="javascript:viod(0)">分期付款</a></li>
+							<li><a href="javascript:viod(0)">邮局汇款</a></li>
+							<li><a href="javascript:viod(0)">公司转账</a></li>
+						</ul>
+						<ul>
+							<h5>售后服务</h5>
+							<li><a href="javascript:viod(0)">售后政策</a></li>
+							<li><a href="javascript:viod(0)">价格保护</a></li>
+							<li><a href="javascript:viod(0)">退款说明</a></li>
+							<li><a href="javascript:viod(0)">返修/退换货</a></li>
+							<li><a href="javascript:viod(0)">取消订单</a></li>
+						</ul>
+						<ul>
+							<h5>特色服务</h5>
+							<li><a href="javascript:viod(0)">夺宝岛</a></li>
+							<li><a href="javascript:viod(0)">DIY装机</a></li>
+							<li><a href="javascript:viod(0)">延保服务</a></li>
+							<li><a href="javascript:viod(0)">京东E卡</a></li>
+							<li><a href="javascript:viod(0)">京东通信</a></li>
+							<li><a href="javascript:viod(0)">京东JD+</a></li>
+						</ul>
+						<ul style="margin-left: -40px;">
+							<h5 style="width: 150px;">小祖宗自营覆盖区县</h5>
+							<li style="width: 200px;margin-left: -40px;"><a href="javascript:viod(0)">小祖宗已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</a></li>
+							<li style="margin-left: -40px;"><a href="#">查看详情&gt;</a></li>
+						</ul>
+					</div>
+					<div class="foot_bottom">
+						<p>
+							<span>关于我们</span>
+							<span>联系我们</span>
+							<span>出版物经营许可证</span>
+							<span>小祖宗网安备 11000002000088号</span>
+							<span>小ICP证070359号</span>
+						</p>
+						<p>
+							<img src="img/029.png"/>
+							<span>互联网出版许可证编号新出网证(小)字150号</span>
+							<span>网络文化经营许可证小网文[2014]2148-348号</span>
+						
+						</p>
+						<p>
+							<span>违法和不良信息举报电话：4006561155</span>
+							<span>消费者维权热线：4006067733</span>
+						</p>
+						<p>
+							<span>版权所有</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+	<script>
+      //ioc的旋转
+		$(".top_r li").hover(function(){
+			$(".top_r li .ioc").find(".xuan").css("transform","rotate(180deg)")
+		},function(){
+			$(".top_r li .ioc").find(".xuan").css("transform","rotate(0deg)")
+		});
+		$(".top_r li").hover(function(){
+			
+			$(".top_r li .xiala").css("transform","rotate(180deg)")
+		},function(){
+			$(".top_r li .xiala").css("transform","rotate(0deg)")
+		})
+//		省市县三级联动
+		$(function(){				
+			var sheng = areaData.sheng;
+			var $sheng = $('#sheng');
+			var $shi = $('#shi');
+			var $xian = $('#xian');
+			var shiIndex = 0;
+			for(var i=0; i<sheng.length; i++){
+				var $option = $('<option value='+ (i+1) +'>'+ sheng[i] +'</option>');
+				$sheng.append( $option );
+			}
+			$sheng.change(function(){
+				shiIndex = this.selectedIndex - 1;
+				if( shiIndex < 0){
+					
+				}else{
+					var shi = areaData.shi['a_'+shiIndex];
+					$shi.html('<option value="0">市</option>');
+					$xian.html('<option value="0">县</option>');
+					for (var i=0;i<shi.length;i++ ){
+						var $option = $('<option value='+ (i+1) +'>'+ shi[i] +'</option>');
+						$shi.append( $option );
+					}
+				}
+			});
+			$shi.change(function(){
+				var index = this.selectedIndex - 1;
+				if(index < 0){
+					
+				}else{
+					var xian = areaData.xian['a_'+shiIndex+'_'+index];
+					$xian.html('<option value="0">县</option>');
+					for(var i=0; i<xian.length; i++){
+						var $option = $('<option value='+ (i+1) +'>'+ xian[i] +'</option>');
+						$xian.append( $option );
+					}
+				}
+			});
+		});
+//		搜索框下来
+		$(window).scroll(function(){		
+			if($(this).scrollTop()>450){
+				$(".header_center").css({"position":"fixed","z-index":"99","top":"0px","border-bottom":"1px solid #fe4065","margin-top":"-20px","height":"100px","margin-top":"-20px"});
+				$(".buycar").css("display","none");
+				$(".search_recommend").fadeOut();
+			}else{
+				$(".header_center").css({position:"","z-index":"99","border-bottom":"none","margin-top":"0px","height":"132px","margin-top":"0px"});
+				$(".buycar").css("display","block");
+				$(".search_recommend").fadeIn();
+			};
+		});
+		
+//		加商品
+		var value = $('#btn_textl').val();
+		$('.box_btn #btn_add').click(function(){
+			value++;			
+			$('#btn_textl').val(value);
+		})
+//		减商品
+		$('.box_btn #btn_jian').click(function(){
+			value--;
+			if(value<=0){
+				value = 0;
+			}
+			$('#btn_textl').val(value);
+		})
+		
+		var $numb = $('.numb');
+		$('#jrgwc').click(function(){
+			var $shop = confirm('确定要添加到购物车？');
+			if($shop==true){
+				 var Onum = $('#btn_textl').val();
+				$numb.html(Onum);
+			}
+		})
+	</script>
+</html>
